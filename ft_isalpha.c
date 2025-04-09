@@ -3,19 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: angrios <angrios@student.42.fr>            +#+  +:+       +#+        */
+/*   By: mochi <mochi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 17:05:15 by angrios           #+#    #+#             */
-/*   Updated: 2025/04/09 17:42:06 by angrios          ###   ########.fr       */
+/*   Updated: 2025/04/09 22:17:05 by mochi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <ctype.h>
-#include <stdio.h>
-
-int main(void)
+int	ft_isalpha(char c)
 {
-	printf("%d\n", isalpha('a'));
-	return 0;
+	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
+	{
+		return (1);
+	}
+	
+	return (0);
 }
-
