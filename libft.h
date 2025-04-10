@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mochi <mochi@student.42.fr>                +#+  +:+       +#+        */
+/*   By: angrios <angrios@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 22:10:42 by mochi             #+#    #+#             */
-/*   Updated: 2025/04/09 22:17:42 by mochi            ###   ########.fr       */
+/*   Updated: 2025/04/10 16:15:26 by angrios          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef libft.h
-#define libft.h
+#ifndef LIBFT_H
+#define LIBFT_H
 
 int	ft_isalpha(char c);
 
