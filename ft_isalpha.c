@@ -6,11 +6,11 @@
 /*   By: angrios <angrios@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 17:05:15 by angrios           #+#    #+#             */
-/*   Updated: 2025/04/10 18:40:42 by angrios          ###   ########.fr       */
+/*   Updated: 2025/04/10 19:05:09 by angrios          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha(char c)
+int	ft_isalpha(int c)
 {
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 	{

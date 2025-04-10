@@ -6,13 +6,13 @@
 /*   By: angrios <angrios@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 22:10:42 by mochi             #+#    #+#             */
-/*   Updated: 2025/04/10 18:49:38 by angrios          ###   ########.fr       */
+/*   Updated: 2025/04/10 19:05:57 by angrios          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 #define LIBFT_H
 
-int	ft_isalpha(char c);
+int	ft_isalpha(int c);
 
 #endif
