@@ -1,8 +1,10 @@
 CC = gcc
 AR = ar rcs
 CFLAGS = -Wall -Wextra -Werror
-SRC = ft_isalpha.c
-OBJ = ft_isalpha.o
+SRC = ft_isalpha.c \
+	ft_isdigit
+OBJ = ft_isalpha.o \
+	ft_isdigit.o
 NAME = libft.a
 
 all: $(NAME)

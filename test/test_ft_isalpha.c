@@ -1,7 +1,7 @@
 #include "libft.h"
 #include <stdio.h>
 
-int	main(void)
+void	test_ft_isalpha(void)
 {
 	printf("Positive cases:\n");
 	printf("ft_isalpha('%c') = %d\n",'A', ft_isalpha('A'));
@@ -19,5 +19,4 @@ int	main(void)
 	printf("ft_isalpha('%c') = %d\n", '\n', ft_isalpha('\n'));
 	printf("ft_isalpha(0) = %d\n", ft_isalpha(0));
 	printf("ft_isalpha(127) = %d\n", ft_isalpha(127));
-	return (0);
 }
