@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 LIB = ../libft.a
 HEADER = ../libft.h
-TESTS = test_ft_isalpha.c test_ft_isdigit.c test_ft_isalnum.c
+TESTS = test_ft_isalpha.c test_ft_isdigit.c test_ft_isalnum.c test_ft_isascii.c
 MAIN = main.c
 NAME = test_runner.out
 
