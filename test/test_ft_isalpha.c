@@ -3,6 +3,8 @@
 
 void	test_ft_isalpha(void)
 {
+	printf("\n\nTEST: tf_isalpha");
+	printf("\n* ************************************************************************** *\n");
 	printf("Positive cases:\n");
 	printf("ft_isalpha('%c') = %d\n",'A', ft_isalpha('A'));
 	printf("ft_isalpha('%c') = %d\n",'Z', ft_isalpha('Z'));

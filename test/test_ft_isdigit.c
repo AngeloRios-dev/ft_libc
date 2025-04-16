@@ -3,7 +3,9 @@
 
 void	test_ft_isdigit(void)
 {
-	printf("\nIs digit:\n");
+	printf("\n\nTEST: tf_isdigit");
+	printf("\n* ************************************************************************** *\n");
+	printf("Is digit:\n");
 	printf("ft_isdigit('%c') = %d\n", '1', ft_isdigit('1'));
 	printf("ft_isdigit('%c') = %d\n", '2', ft_isdigit('2'));
 	printf("ft_isdigit('%c') = %d\n", '3', ft_isdigit('3'));
