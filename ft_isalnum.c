@@ -6,15 +6,15 @@
 /*   By: angrios <angrios@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 20:28:44 by angrios           #+#    #+#             */
-/*   Updated: 2025/04/10 20:31:11 by angrios          ###   ########.fr       */
+/*   Updated: 2025/04/16 14:37:35 by angrios          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <ctype.h>
-#include <stdio.h>
-
-int	main(void)
+int	ft_isalnum(int c)
 {
-	printf("%d\n", isalnum('a'));
+	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
+		return (1);
+	if ((c >= '0' && c <= '9'))
+		return (1);
 	return (0);
 }
