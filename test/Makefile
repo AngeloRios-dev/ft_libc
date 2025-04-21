@@ -7,7 +7,8 @@ TESTS = test_ft_isalpha.c \
 	test_ft_isalnum.c \
 	test_ft_isascii.c \
 	test_ft_isprint.c \
-	test_ft_strlen.c
+	test_ft_strlen.c \
+	test_ft_memset.c
 MAIN = main.c
 NAME = test_runner.out
 
