@@ -6,6 +6,7 @@ void	test_ft_isalnum(void);
 void	test_ft_isascii(void);
 void	test_ft_isprint(void);
 void	test_ft_strlen(void);
+void	test_ft_memset(void);
 
 int	main(void)
 {
@@ -15,5 +16,6 @@ int	main(void)
 	test_ft_isascii();
 	test_ft_isprint();
 	test_ft_strlen();
+	test_ft_memset();
 	return (0);
 }

@@ -1,6 +1,6 @@
 #include "libft.h"
 
-int	main(void)
+int	test_ft_memset(void)
 {
 	char buffer[10] = "hola mundo";
 	printf("Cadena original: %s\n", buffer);
