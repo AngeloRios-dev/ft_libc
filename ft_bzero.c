@@ -6,7 +6,7 @@
 /*   By: angrios <angrios@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/22 16:52:06 by angrios           #+#    #+#             */
-/*   Updated: 2025/04/23 09:00:36 by angrios          ###   ########.fr       */
+/*   Updated: 2025/04/23 16:26:05 by angrios          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	size_t	i;
+	size_t			i;
 	unsigned char	*ptr_s;
 
 	i = 0;
