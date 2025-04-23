@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: angrios <angrios@student.42.fr>            +#+  +:+       +#+        */
+/*   By: angrios <angrios@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 22:10:42 by mochi             #+#    #+#             */
-/*   Updated: 2025/04/22 16:28:13 by angrios          ###   ########.fr       */
+/*   Updated: 2025/04/23 08:06:22 by angrios          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,6 @@ int	ft_isascii(int c);
 int	ft_isprint(int c);
 int	ft_strlen(const char *s);
 void	*ft_memset(void *str, int c, size_t n);
+void	ft_bzero(void *s, size_t n);
 
 #endif
