@@ -8,7 +8,8 @@ SRC = ft_isalpha.c \
 	ft_isprint.c \
 	ft_strlen.c \
 	ft_memset.c \
-	ft_bzero.c
+	ft_bzero.c \
+	ft_memcpy.c
 OBJ = $(SRC:.c=.o)
 NAME = libft.a
 
@@ -24,4 +25,3 @@ fclean: clean
 	 rm -f $(NAME)
 
 re: fclean all
-
