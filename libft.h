@@ -6,7 +6,7 @@
 /*   By: angrios <angrios@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 22:10:42 by mochi             #+#    #+#             */
-/*   Updated: 2025/05/01 16:34:17 by angrios          ###   ########.fr       */
+/*   Updated: 2025/05/01 17:51:50 by angrios          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,6 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
 int		ft_toupper(int c);
 int		ft_tolower(int c);
+char	*ft_strchr(const char *s, int c);
 
 #endif
