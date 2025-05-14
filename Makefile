@@ -29,7 +29,8 @@ SRC = ft_isalpha.c \
 	ft_strtrim.c \
 	ft_split.c \
 	ft_itoa.c \
-	ft_putchar_fd.c
+	ft_putchar_fd.c \
+	ft_putstr_fd.c
 OBJ = $(SRC:.c=.o)
 NAME = libft.a
 
