@@ -6,7 +6,7 @@
 /*   By: angrios <angrios@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/14 14:41:06 by angrios           #+#    #+#             */
-/*   Updated: 2025/05/14 18:22:15 by angrios          ###   ########.fr       */
+/*   Updated: 2025/05/14 18:35:57 by angrios          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 {
-	unsigned	i;
-	size_t		s_len;
-	char		*new_str;
+	unsigned int	i;
+	size_t			s_len;
+	char			*new_str;
 
 	if (!s)
 		return (ft_strdup(""));

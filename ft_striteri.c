@@ -6,7 +6,7 @@
 /*   By: angrios <angrios@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/14 17:42:01 by angrios           #+#    #+#             */
-/*   Updated: 2025/05/14 18:10:47 by angrios          ###   ########.fr       */
+/*   Updated: 2025/05/14 18:34:35 by angrios          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
-	unsigned	i;
+	unsigned int	i;
 
 	if (!s)
 		return ;
