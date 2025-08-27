@@ -1,6 +1,8 @@
+NAME = libft.a
 CC = gcc
 AR = ar rcs
 CFLAGS = -Wall -Wextra -Werror
+
 SRC = ft_isalpha.c \
 	ft_isdigit.c \
 	ft_isalnum.c \
@@ -34,9 +36,11 @@ SRC = ft_isalpha.c \
 	ft_putnbr_fd.c \
 	ft_putendl_fd.c \
 	ft_striteri.c \
-	ft_strmapi.c
+	ft_strmapi.c \
+	ft_printf_handlers.c \
+	ft_printf_utils.c \
+	ft_printf.c
 OBJ = $(SRC:.c=.o)
-NAME = libft.a
 
 all: $(NAME)
 
