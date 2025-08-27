@@ -6,7 +6,7 @@
 /*   By: angrios <angrios@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 22:10:42 by mochi             #+#    #+#             */
-/*   Updated: 2025/05/14 18:40:04 by angrios          ###   ########.fr       */
+/*   Updated: 2025/08/27 12:04:44 by angrios          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdarg.h>
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
@@ -50,5 +51,14 @@ void	ft_putnbr_fd(int n, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 char	*ft_strmapi(const char *s, char (*f)(unsigned int, char));
+
+// ft_printf
+int		ft_printf(const char *format, ...);
+int		ft_str_handler(char *str);
+int		ft_ptr_handler(void *ptr);
+int		ft_int_handler(int num);
+int		ft_unsigned_handler(unsigned int num);
+int		ft_print_hex(unsigned long num, int x_type);
+int		ft_hex_handler(unsigned int num, char specifier);
 
 #endif
